@@ -11,7 +11,7 @@ def getFile(toGet):
 
 def getToWrite(toCompile):
     #This is the regex used to find the prep statments
-    regex = "<\?prep include \"([a-z]*\.[a-z]*)\"\?>"
+    regex = "<\?prep include \"([a-z]*\.[a-z]*)\" *\?>"
     #String to return:
     toReturn = ""
     #Scan all the lines and try to find the pattern
