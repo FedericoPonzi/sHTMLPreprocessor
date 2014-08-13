@@ -6,8 +6,8 @@ A really simple html preprocessor.
 
 How it works
 ============
-It gets html/footer.html and html/header.html, and append them to all the other files inside html directory. The resulted files can be found inside the compiled folder.
-
+It use a syntax similar to PHP to include a file inside another one. Check html/index.html for an example.
+An example can be found inside html/index.html
 
 How to run
 ==========
